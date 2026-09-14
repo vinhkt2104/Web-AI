@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="roofGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="wallGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <!-- Background badge for maximum visibility on both light and dark browser tabs -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <!-- Chimney -->
+  <rect x="42" y="14" width="6" height="12" rx="1.5" fill="#d97706" />
+  <!-- House Roof -->
+  <path d="M12 28 L32 10 L52 28 L48 28 L32 14 L16 28 Z" fill="url(#roofGrad)" />
+  <!-- House Body -->
+  <path d="M17 27 L47 27 L47 50 C47 51.5 45.5 53 44 53 L20 53 C18.5 53 17 51.5 17 50 Z" fill="url(#wallGrad)" />
+  <!-- Door -->
+  <rect x="27" y="38" width="10" height="15" rx="2" fill="#f59e0b" />
+  <!-- Door knob -->
+  <circle cx="34.5" cy="46" r="1" fill="#ffffff" />
+  <!-- Windows -->
+  <rect x="21" y="32" width="7" height="7" rx="1.5" fill="#38bdf8" />
+  <rect x="36" y="32" width="7" height="7" rx="1.5" fill="#38bdf8" />
+  <!-- Foundation Line -->
+  <rect x="13" y="52" width="38" height="3" rx="1.5" fill="#f59e0b" />
+</svg>

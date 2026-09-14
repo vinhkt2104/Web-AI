@@ -1,0 +1,8 @@
+{
+  "name": "Dự Toán Xây Dựng",
+  "description": "Ứng dụng tính toán dự toán chi phí xây dựng công trình tự động theo diện tích, khối lượng, hệ số móng mái và đơn giá",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
